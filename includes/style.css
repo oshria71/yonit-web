@@ -1,0 +1,185 @@
+header a{
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.nav1 {
+  font-weight: bold;
+}
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #130202;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .nav1 li {
+    float: left;
+  }
+  
+  .nav1 li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav1 li a:hover:not(.active) {
+    background-color: #6d5f5f;
+  }
+  
+  .nav1 li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+
+  body {
+    background-color: #241f1f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .images {
+    display: flex;
+    flex: 33.3%;
+    padding-left: 125px;
+    padding-top: 40px;
+  }
+  .images img{
+    width: 350px; 
+    height: 450px; 
+    padding-right: 30px;  
+  }
+.info1 {
+  padding-left: 125px;
+  padding-top: 0px;
+  color: white;
+  
+}
+.info2 h1{
+  color: white;
+}
+.info2 ul{
+  color: white;
+  list-style-type:none;
+}
+.info2 {
+  padding-left: 125px;
+  padding-top: 40px;
+}
+li.c {
+  background: url('../images/c.png') no-repeat left top;
+  height: 54px;
+  padding-left: 80px;
+  padding-top: 3px;
+  }
+  li.cS {
+    background: url('../images/c++.jpg') no-repeat left top;
+    height: 54px;
+    padding-left: 80px;
+    padding-top: 3px;
+  }
+  li.php {
+    background: url('../images/php.png') no-repeat left top;
+    height: 54px;
+    padding-left: 80px;
+    padding-top: 0px;
+  }
+  li.html {
+    background: url('../images/html5.png') no-repeat left top;
+    height: 54px;
+    padding-left: 80px;
+    padding-top: 3px;
+  }
+  li.java {
+    background: url('../images/java.png') no-repeat left top;
+    height: 58px;
+    padding-left: 80px;
+    padding-top: 3px;
+  }
+  li.javas {
+    background: url('../images/javaS.png') no-repeat left top;
+    height: 54px;
+    padding-left: 80px;
+    padding-top: 3px;
+  }
+
+  .pic1 {
+    padding-top: 40px;
+    padding-left: 125px;
+    position: absolute;
+    width: 510px;
+    height: 300px;
+  }
+  .pic2 {
+    position: block;
+    padding-left: 440px;
+    padding-top: 100px;
+    width: 300px;
+    height: 300px;
+    position: relative
+    }
+
+  pics {
+    position: block;
+    padding: 40px;
+    border-color: blue;
+  }
+
+footer{
+  background-color: white;
+}
+  main {
+    padding: 40PX;
+  }
+
+
+  .bottomF {
+    display: inline-block;
+    width:100%;
+    }
+
+  .bottomF ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .bottomF li {
+    float: left;
+  }
+  
+  .bottomF li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .bottomF li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
