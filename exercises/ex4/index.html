@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <header>
+
+    </header>
+    <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="GET">
+        <label>FullName: <input name="fullName" pattern="[a-zA-Z\s]+"  title="A name can't contine numbers or sympls"></label>
+        <br><label>Password: <input type="password" name="pass"></label>
+        <br><label>E-mail: <input type="email" name="mail"></label>
+        <br><label>Website: <input type="url" name="website"></label>
+        <br><label>Phone: <input type="text" name="phone" pattern="[0-9\s]+"  title="Phone can contine only numbers"></label>
+        <br><label>Temper: <input type="number" name="temper" min="-10" max="50"></label>
+        <br><label>Coffee: 0<input type="range" name="coffee" value="0" min="0" max="20">20</label>
+        <br><label>Address: <input type=”text” name="address"></Address></label>
+        <h3>Hobbies: </h3>
+        Reading books: <input type="checkbox" name="interests[]" value="Reading Books"><br>
+        Play with my children:<input type="checkbox" name="interests[]" value="Play with my children"><br>
+        Gaming:<input type="checkbox" name="interests[]" value="Gaming"><br>
+        Football:<input type="checkbox" name="interests[]" value="Football">
+        
+        <h2>Gender</h2>
+        <label>Male <input type="radio" name="gender" value ="Male"></label>
+        <label>Female <input type="radio" name="gender" value ="Female"></label>
+
+        <br><label for="age">Age: </label>
+        <input type="number" name="age" id="age" value ="1" min="0"
+        max="120"></p>
+        
+        <br><input type="submit" value="Submit">
+    </form >    
+</body>
+</html>
